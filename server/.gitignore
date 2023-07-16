@@ -1,0 +1,38 @@
+# Ignore Node.js related files and directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore development build output
+dist/
+build/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore OS and editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore compiled files
+*.min.js
+*.min.css
+
+# Ignore miscellaneous files
+*.swp
+*.swo
